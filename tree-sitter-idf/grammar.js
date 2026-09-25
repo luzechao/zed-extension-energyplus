@@ -1,6 +1,6 @@
 /**
  * @file Tree-sitter grammar for EnergyPlus Input Data Files (IDF)
- * @license BSD-3-Clause
+ * @license MIT
  */
 
 /// <reference types="tree-sitter-cli/dsl" />

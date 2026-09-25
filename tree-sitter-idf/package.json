@@ -2,7 +2,7 @@
   "name": "tree-sitter-idf",
   "version": "0.1.0",
   "description": "EnergyPlus IDF grammar for tree-sitter",
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "generate": "tree-sitter generate",

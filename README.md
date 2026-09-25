@@ -63,7 +63,10 @@ Check **zed: open log** if the extension fails to build.
 
 ### Publishing
 
-1. Add a `LICENSE` file. The Zed extension registry requires one.
-2. Open a PR to [zed-industries/extensions](https://github.com/zed-industries/extensions)
+1. Open a PR to [zed-industries/extensions](https://github.com/zed-industries/extensions)
    that adds this repo as a submodule and an entry in `extensions.toml`.
    See the [Zed extension docs](https://zed.dev/docs/extensions/developing-extensions).
+
+## License
+
+[MIT](LICENSE)
