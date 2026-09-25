@@ -1,0 +1,88 @@
+==================
+Object with annotations
+==================
+
+! Header comment
+Version,24.2;
+
+Building,
+    Office Building,         !- Name
+    30.,                     !- North Axis {deg}
+    City,                    !- Terrain
+    0.04,                    !- Loads Convergence Tolerance Value {W}
+    ,                        !- Blank field
+    FullExterior,            !- Solar Distribution
+    -1.5E+3;                 !- Last field
+
+---
+
+(source_file
+  (comment)
+  (object
+    class: (class_name)
+    name: (number))
+  (object
+    class: (class_name)
+    name: (string)
+    (comment)
+    (number)
+    (comment)
+    (string)
+    (comment)
+    (number)
+    (comment)
+    (comment)
+    (string)
+    (comment)
+    (number))
+  (comment))
+
+==================
+Object without fields and inline object
+==================
+
+Lead Input;
+Output:Variable,*,Site Outdoor Air Drybulb Temperature,hourly; !- Zone Average [C]
+
+---
+
+(source_file
+  (object
+    class: (class_name))
+  (object
+    class: (class_name)
+    name: (string)
+    (string)
+    (string))
+  (comment))
+
+==================
+Numbers vs text
+==================
+
+Zone,10 Floors,10,.5,Autosize;
+
+---
+
+(source_file
+  (object
+    class: (class_name)
+    name: (string)
+    (number)
+    (number)
+    (string)))
+
+==================
+EP-Macro directives
+==================
+
+##include schedules.idf
+Timestep,6;
+
+---
+
+(source_file
+  (macro)
+  (object
+    class: (class_name)
+    name: (number)))

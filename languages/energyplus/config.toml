@@ -1,0 +1,6 @@
+name = "EnergyPlus"
+grammar = "idf"
+path_suffixes = ["idf", "imf", "ddy", "edd", "mdd", "rdd"]
+line_comments = ["! "]
+tab_size = 4
+hard_tabs = false

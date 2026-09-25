@@ -1,0 +1,22 @@
+{
+  "grammars": [
+    {
+      "name": "idf",
+      "camelcase": "Idf",
+      "scope": "source.idf",
+      "path": ".",
+      "file-types": ["idf", "imf", "ddy", "edd", "mdd", "rdd"]
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "BSD-3-Clause",
+    "description": "EnergyPlus IDF grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Zechao Lu",
+        "email": "zechao.lu@nlr.gov"
+      }
+    ]
+  }
+}

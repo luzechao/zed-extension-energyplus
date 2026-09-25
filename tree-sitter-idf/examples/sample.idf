@@ -1,0 +1,17 @@
+! Sample EnergyPlus input used to exercise the highlight queries
+##include schedules.idf
+
+Version,24.2;
+
+Building,
+    Office Building,         !- Name
+    30.,                     !- North Axis {deg}
+    City,                    !- Terrain
+    ???,                     !- Loads Convergence Tolerance Value {W}
+    ,                        !- Blank field
+    -1.5E+3;                 !- Last field
+
+Sizing:Zone,
+    Office,                  !- Zone or ZoneList Name
+    Autosize,                !- Cooling Design Air Flow Rate {m3/s}
+    AutoCalculate;           !- Heating Design Air Flow Rate {m3/s}

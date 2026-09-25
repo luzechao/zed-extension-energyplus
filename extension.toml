@@ -1,0 +1,14 @@
+id = "energyplus"
+name = "EnergyPlus"
+description = "Syntax highlighting for EnergyPlus input files (IDF, IMF, DDY, and related data dictionaries)."
+version = "0.1.0"
+schema_version = 1
+authors = ["Zechao Lu <zechao.lu@nlr.gov>"]
+repository = "https://github.com/luzechao/zed-extension-energyplus"
+
+# The grammar lives in the `tree-sitter-idf/` subdirectory of this repository.
+# `rev` must be a pushed commit SHA that contains the generated `src/parser.c`.
+[grammars.idf]
+repository = "https://github.com/luzechao/zed-extension-energyplus"
+rev = "REPLACE_WITH_COMMIT_SHA"
+path = "tree-sitter-idf"

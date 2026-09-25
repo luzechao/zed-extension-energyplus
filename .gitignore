@@ -1,0 +1,10 @@
+node_modules/
+*.wasm
+
+# Created by Zed when building the extension
+grammars/
+extension.wasm
+target/
+
+# Local scratch
+.tmp-*/

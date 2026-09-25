@@ -1,0 +1,15 @@
+{
+  "name": "tree-sitter-idf",
+  "version": "0.1.0",
+  "description": "EnergyPlus IDF grammar for tree-sitter",
+  "license": "BSD-3-Clause",
+  "private": true,
+  "scripts": {
+    "generate": "tree-sitter generate",
+    "test": "tree-sitter test",
+    "parse": "tree-sitter parse"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.27.0"
+  }
+}
