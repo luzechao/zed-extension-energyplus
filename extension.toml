@@ -10,5 +10,5 @@ repository = "https://github.com/luzechao/zed-extension-energyplus"
 # `rev` must be a pushed commit SHA that contains the generated `src/parser.c`.
 [grammars.idf]
 repository = "https://github.com/luzechao/zed-extension-energyplus"
-rev = "REPLACE_WITH_COMMIT_SHA"
+rev = "056df587d000e77e04eb1fe2e7459c4a08fbdb3c"
 path = "tree-sitter-idf"
