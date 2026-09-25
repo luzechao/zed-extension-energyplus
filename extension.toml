@@ -1,4 +1,4 @@
-id = "energyplus"
+id = "energyplus-idf"
 name = "EnergyPlus"
 description = "Syntax highlighting for EnergyPlus input files (IDF, IMF, DDY, and related data dictionaries)."
 version = "0.1.0"
